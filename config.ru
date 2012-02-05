@@ -1,6 +1,7 @@
-require './app'
+path = File.expand_path("../", __FILE__)
 
-use Rack::ShowExceptions
+require 'rubygems'
+require 'sinatra'
+require "#{path}/app"
 
-
-run App.new
+run Sinatra::Application
