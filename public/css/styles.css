@@ -1,0 +1,78 @@
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 14px;
+}
+#wrapper { 
+   margin: 0 auto;
+   width: 922px;
+}
+
+#header {
+   color: #333;
+   width: 902px;
+   padding: 10px;
+   height: 100px;
+   margin: 10px 0px 5px 0px;
+   background: #ABBEBE;
+}
+#rightcolumn { 
+   display: inline;
+   color: #333;
+   margin: 10px;
+   padding: 0px;
+   width: 500px;
+   float: right;
+}
+#leftcolumn { 
+   float: left;
+   color: #333;
+  /* border: 1px solid red;*/
+   margin: 10px;
+   padding: 0px;
+   width: 300px;
+   display: inline;
+   position: relative;
+}
+.footer { 
+   width: 902px;
+   clear: both;
+   color: #333;
+   background: #ABBEBE;
+   margin: 0px 0px 10px 0px;
+   padding: 10px;
+}
+.clear { clear: both; background: none; }
+
+#login {
+  
+  position: relative;
+  float: right;
+}
+
+
+input.login {
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#playlist-subtitle-wrapper {
+  margin: 0 auto;
+}
+
+#input-login {
+  background: #59b;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 2px 2px 5px rgba(88, 88, 88, 0.5);
+  -webkit-box-shadow: 2px 2px 5px rgba(88, 88, 88, 0.5);
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+
+/*User Page styles*/
+
